@@ -23,60 +23,57 @@ do
     } while (validChoice == false) ;
     if (input != null)
     {
-      {
-        if (input == "quit")
-          playing = false;
-
-      }
-
-      string gameParams = compChoice + input;
-
-      switch (gameParams)
-      {
-        case "paperpaper":
-          Console.ForegroundColor = ConsoleColor.Yellow;
-          Console.WriteLine($"{compChoice}, It's a tie");
-          break;
-        case "paperrock":
-          Console.ForegroundColor = ConsoleColor.Red;
-          Console.WriteLine($"{compChoice}, You lose.");
-          losses++;
-          break;
-        case "paperscissors":
-          Console.ForegroundColor = ConsoleColor.Green;
-          Console.WriteLine($"{compChoice}, You Win!!");
-          wins++;
-          break;
-        case "rockpaper":
-          Console.ForegroundColor = ConsoleColor.Green;
-          Console.WriteLine($"{compChoice}, You Win!!");
-          wins++;
-          break;
-        case "rockrock":
-          Console.ForegroundColor = ConsoleColor.Yellow;
-          Console.WriteLine($"{compChoice}, It's a tie");
-          break;
-        case "rockscissors":
-          Console.ForegroundColor = ConsoleColor.Red;
-          Console.WriteLine($"{compChoice}, You lose.");
-          losses++;
-          break;
-        case "scissorspaper":
-          Console.ForegroundColor = ConsoleColor.Red;
-          Console.WriteLine($"{compChoice}, You lose.");
-          losses++;
-          break;
-        case "scissorsrock":
-          Console.ForegroundColor = ConsoleColor.Green;
-          Console.WriteLine($"{compChoice}, You Win!!");
-          wins++;
-          break;
-        case "scissorsscissors":
-          Console.ForegroundColor = ConsoleColor.Yellow;
-          Console.WriteLine($"{compChoice}, It's a tie");
-          break;
-      }
-      Console.ForegroundColor = ConsoleColor.Gray;
+      if (input == "quit") {
+        playing = false;
     }
-  } 
+}
+    string gameParams = compChoice + input;
+
+    switch (gameParams)
+    {
+      case "paperpaper":
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine($"{compChoice}, It's a tie");
+        break;
+      case "paperrock":
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine($"{compChoice}, You lose.");
+        losses++;
+        break;
+      case "paperscissors":
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"{compChoice}, You Win!!");
+        wins++;
+        break;
+      case "rockpaper":
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"{compChoice}, You Win!!");
+        wins++;
+        break;
+      case "rockrock":
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine($"{compChoice}, It's a tie");
+        break;
+      case "rockscissors":
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine($"{compChoice}, You lose.");
+        losses++;
+        break;
+      case "scissorspaper":
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine($"{compChoice}, You lose.");
+        losses++;
+        break;
+      case "scissorsrock":
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"{compChoice}, You Win!!");
+        wins++;
+        break;
+      case "scissorsscissors":
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine($"{compChoice}, It's a tie");
+        break;
+    }
+    Console.ForegroundColor = ConsoleColor.Gray;
+  }
 } while (playing);
