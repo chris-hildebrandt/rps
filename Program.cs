@@ -72,5 +72,4 @@ do
         break;
     }
   Console.ForegroundColor = ConsoleColor.Gray;
-  },
-} while (playing);
+  } while (playing);
