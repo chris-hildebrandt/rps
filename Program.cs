@@ -6,22 +6,23 @@ List<string> choices = new List<string> { "rock", "paper", "scissors" };
 Console.WriteLine("******** ROCK PAPER SCISSORS ********");
 Console.WriteLine($"WINS: {wins}        LOSSES: {losses}");
 Console.WriteLine("*************************************");
-Console.WriteLine("Enter 'rock', 'paper', 'scissors', or 'quit'. Not case sensitive.")
-while(playing)
+Console.WriteLine("Enter 'rock', 'paper', 'scissors', or 'quit'. Not case sensitive.");
+
+while (playing)
 {
   Random rand = new Random();
   int randIndex = rand.Next(0, choices.Count);
   string compChoice = choices[randIndex];
   string? input = "";
 
-    input = Console.ReadLine().ToLower();
+  input = Console.ReadLine().ToLower();
 
-    if (input != "rock" || input != "paper" || input != "scissors" || input != "quit")
-    { 
-      // TODO make list of snarky remarks to grab from randomly
-      Console.WriteLine("invalid response, please read the extremely simple instructions and try again.");
-      continue; 
-      }
+  if (input != "rock" || input != "paper" || input != "scissors" || input != "quit")
+  {
+    // TODO make list of snarky remarks to grab from randomly
+    Console.WriteLine("invalid response, please read the extremely simple instructions and try again.");
+    continue;
+  }
   if (input == "quit")
   {
     playing = false;
