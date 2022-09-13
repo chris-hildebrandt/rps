@@ -17,7 +17,7 @@ while (playing)
 
   input = Console.ReadLine().ToLower();
 
-  if (input != "rock" || input != "paper" || input != "scissors" || input != "quit")
+  if (input != "rock" && input != "paper" && input != "scissors" && input != "quit")
   {
     // TODO make list of snarky remarks to grab from randomly
     Console.WriteLine("invalid response, please read the extremely simple instructions and try again.");
