@@ -20,13 +20,10 @@ do
     if (input == "rock" || input == "paper" || input == "scissors" || input == "quit")
     {
       validChoice = true;
-    } while (validChoice == false) ;
-    if (input != null)
-    {
+    } } while (validChoice == false);
+
       if (input == "quit") {
-        playing = false;
-    }
-}
+        playing = false; }
     string gameParams = compChoice + input;
 
     switch (gameParams)
@@ -74,6 +71,6 @@ do
         Console.WriteLine($"{compChoice}, It's a tie");
         break;
     }
-    Console.ForegroundColor = ConsoleColor.Gray;
-  }
+  Console.ForegroundColor = ConsoleColor.Gray;
+  },
 } while (playing);
