@@ -3,13 +3,13 @@ int wins = 0;
 int losses = 0;
 List<string> choices = new List<string> { "rock", "paper", "scissors" };
 
+
+while (playing)
+{
 Console.WriteLine("******** ROCK PAPER SCISSORS ********");
 Console.WriteLine($"WINS: {wins}        LOSSES: {losses}");
 Console.WriteLine("*************************************");
 Console.WriteLine("Enter 'rock', 'paper', 'scissors', or 'quit'. Not case sensitive.");
-
-while (playing)
-{
   Random rand = new Random();
   int randIndex = rand.Next(0, choices.Count);
   string compChoice = choices[randIndex];
