@@ -1,0 +1,15 @@
+C:\Users\Chris\source\codeworks\rps\bin\Debug\net6.0\rps.exe
+C:\Users\Chris\source\codeworks\rps\bin\Debug\net6.0\rps.deps.json
+C:\Users\Chris\source\codeworks\rps\bin\Debug\net6.0\rps.runtimeconfig.json
+C:\Users\Chris\source\codeworks\rps\bin\Debug\net6.0\rps.dll
+C:\Users\Chris\source\codeworks\rps\bin\Debug\net6.0\rps.pdb
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\rps.csproj.AssemblyReference.cache
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\rps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\rps.AssemblyInfoInputs.cache
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\rps.AssemblyInfo.cs
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\rps.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\rps.dll
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\refint\rps.dll
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\rps.pdb
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\rps.genruntimeconfig.cache
+C:\Users\Chris\source\codeworks\rps\obj\Debug\net6.0\ref\rps.dll
